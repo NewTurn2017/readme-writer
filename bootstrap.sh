@@ -9,7 +9,7 @@
 #   READMEW_REPO    Git URL. Default: https://github.com/NewTurn2017/readme-writer.git
 #   READMEW_REF     Git ref. Default: main
 
-set -euo pipefail
+set -eo pipefail
 
 REPO_URL="${READMEW_REPO:-https://github.com/NewTurn2017/readme-writer.git}"
 REF="${READMEW_REF:-main}"
